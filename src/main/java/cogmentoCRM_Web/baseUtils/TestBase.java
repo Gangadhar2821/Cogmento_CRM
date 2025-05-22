@@ -15,6 +15,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 
 import cogmentoCRM_Web.dataUtils.ConfigReader;
+import cogmentoCRM_Web.pageObjects.ContactsPage;
 import cogmentoCRM_Web.pageObjects.CreateNewContactPage;
 import cogmentoCRM_Web.pageObjects.HomePage;
 import cogmentoCRM_Web.pageObjects.LoginPage;
@@ -28,6 +29,8 @@ public class TestBase {
 	protected static LoginPage loginPage;
 	protected static HomePage homePage;
 	protected static CreateNewContactPage createNewContactpage;
+	protected static ContactsPage contactsPage;
+
 	protected static WebDriver driver;
 
 	private enum BrowserType {
@@ -62,7 +65,7 @@ public class TestBase {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(0));
 		driver.get(url);
-		PageInitializer.intializePages();
+		ObjectsInitializer.intialize();
 	}
 
 	@BeforeClass

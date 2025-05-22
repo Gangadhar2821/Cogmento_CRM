@@ -3,15 +3,14 @@ package cogmentoCRM_Web.pageObjects;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
-public class HomePage {
+import cogmentoCRM_Web.baseUtils.Application_Utils;
 
-	protected WebDriver driver;
+public class HomePage extends Application_Utils {
 
 	public HomePage(WebDriver driver) {
-		this.driver = driver;
-		PageFactory.initElements(driver, this);
+		super(driver);
 	}
 
 	@FindBy(xpath = "//span[@class='user-display']")
@@ -54,6 +53,10 @@ public class HomePage {
 
 	public WebElement getBtn_Logout() {
 		return btn_Logout;
+	}
+
+	public void click_btnIconsetting() {
+		wait.until(ExpectedConditions.elementToBeClickable(btn_Logout)).click();
 	}
 
 }

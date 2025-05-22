@@ -6,8 +6,10 @@
       <class name="demoCRM_Web.testScripts.TC001_Create_NewContact">
         <methods>
           <include name="setup"/>
+          <include name="createNewContact" invocation-numbers="0"/>
+          <include name="logout"/>
           <include name="tearDown"/>
-          <include name="create_NewContact" invocation-numbers="0"/>
+          <include name="login"/>
         </methods>
       </class> <!-- demoCRM_Web.testScripts.TC001_Create_NewContact -->
     </classes>

@@ -3,6 +3,7 @@ package demoCRM_Web.testScripts;
 import java.util.Map;
 
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
 import cogmentoCRM_Web.baseUtils.Log;
@@ -20,7 +21,7 @@ public class TC001_Create_NewContact extends TestBase {
 		Log.info("**********Begining of TC001_Create_NewCustomer**********");
 		homePage.getIcon_Contacts().click();
 		homePage.getIcon_AddContacts().click();
-		homePage.getIcon_Contacts().sendKeys(Keys.TAB);
+		contactsPage.clickBtnCreateContact();
 		createNewContactpage.enterTxt_FirstName(data.get("FirstName"));
 		createNewContactpage.enterTxt_LastName(data.get("LastName"));
 		createNewContactpage.selectList_Category(data.get("Option"));

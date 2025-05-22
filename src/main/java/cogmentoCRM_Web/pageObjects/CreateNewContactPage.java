@@ -8,12 +8,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class CreateNewContactPage {
+import cogmentoCRM_Web.baseUtils.Application_Utils;
+
+public class CreateNewContactPage extends Application_Utils {
 	protected WebDriver driver;
 
 	public CreateNewContactPage(WebDriver driver) {
-		this.driver = driver;
-		PageFactory.initElements(driver, this);
+		super(driver);
 	}
 
 	@FindBy(xpath = "//input[@name='first_name']")
@@ -58,6 +59,11 @@ public class CreateNewContactPage {
 
 	public void clickBtn_Save() {
 		btn_Save.click();
+	}
+
+	public WebElement getFirstName() {
+		return txt_FirstName;
+
 	}
 
 }

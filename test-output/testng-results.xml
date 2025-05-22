@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-21T18:36:41 IST" name="Default suite" finished-at="2025-05-21T18:37:25 IST" duration-ms="43445">
+  <suite started-at="2025-05-22T12:20:03 IST" name="Default suite" finished-at="2025-05-22T12:22:49 IST" duration-ms="165343">
     <groups>
     </groups>
-    <test started-at="2025-05-21T18:36:41 IST" name="Default test" finished-at="2025-05-21T18:37:25 IST" duration-ms="43445">
+    <test started-at="2025-05-22T12:20:03 IST" name="Default test" finished-at="2025-05-22T12:22:49 IST" duration-ms="165343">
       <class name="demoCRM_Web.testScripts.TC001_Create_NewContact">
-        <test-method is-config="true" signature="setup()[pri:0, instance:demoCRM_Web.testScripts.TC001_Create_NewContact@10fbbdb]" started-at="2025-05-21T18:36:32 IST" name="setup" finished-at="2025-05-21T18:36:41 IST" duration-ms="9358" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:demoCRM_Web.testScripts.TC001_Create_NewContact@10fbbdb]" started-at="2025-05-22T12:19:56 IST" name="setup" finished-at="2025-05-22T12:20:03 IST" duration-ms="7291" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="login()[pri:0, instance:demoCRM_Web.testScripts.TC001_Create_NewContact@10fbbdb]" started-at="2025-05-21T18:36:41 IST" name="login" finished-at="2025-05-21T18:36:45 IST" duration-ms="3436" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:demoCRM_Web.testScripts.TC001_Create_NewContact@10fbbdb]" started-at="2025-05-22T12:20:03 IST" name="login" finished-at="2025-05-22T12:20:06 IST" duration-ms="2846" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="create_NewContact(java.util.Map)[pri:0, instance:demoCRM_Web.testScripts.TC001_Create_NewContact@10fbbdb]" started-at="2025-05-21T18:36:47 IST" name="create_NewContact" data-provider="ExcelTestData" finished-at="2025-05-21T18:37:24 IST" duration-ms="37435" status="FAIL">
+        <test-method signature="createNewContact(java.util.Map)[pri:0, instance:demoCRM_Web.testScripts.TC001_Create_NewContact@10fbbdb]" started-at="2025-05-22T12:20:21 IST" name="createNewContact" data-provider="ExcelTestData" finished-at="2025-05-22T12:22:48 IST" duration-ms="147493" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,82 +23,14 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
-            <message>
-              <![CDATA[element not interactable
-  (Session info: chrome=136.0.7103.114)
-Build info: version: '4.32.0', revision: 'd17c8aa950'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b2e9d406daaf211f1d58f316a84255d4, sendKeysToElement {id=f.0F269203CEDCA9551558835A0C62FBD7.d.5579090FFEA4750872580257CB7DFE61.e.63, value=[Ljava.lang.CharSequence;@74c23525}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\GANGAD~1.B\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60360}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60360/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (b2e9d406daaf211f1d58f316a84255d4)] -> xpath: //i[@class='users icon']]
-Session ID: b2e9d406daaf211f1d58f316a84255d4]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=136.0.7103.114)
-Build info: version: '4.32.0', revision: 'd17c8aa950'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b2e9d406daaf211f1d58f316a84255d4, sendKeysToElement {id=f.0F269203CEDCA9551558835A0C62FBD7.d.5579090FFEA4750872580257CB7DFE61.e.63, value=[Ljava.lang.CharSequence;@74c23525}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\GANGAD~1.B\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60360}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60360/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (b2e9d406daaf211f1d58f316a84255d4)] -> xpath: //i[@class='users icon']]
-Session ID: b2e9d406daaf211f1d58f316a84255d4
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy32.sendKeys(Unknown Source)
-at demoCRM_Web.testScripts.TC001_Create_NewContact.create_NewContact(TC001_Create_NewContact.java:23)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- create_NewContact -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:demoCRM_Web.testScripts.TC001_Create_NewContact@10fbbdb]" started-at="2025-05-21T18:37:24 IST" name="logout" finished-at="2025-05-21T18:37:25 IST" duration-ms="486" status="PASS">
+        </test-method> <!-- createNewContact -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:demoCRM_Web.testScripts.TC001_Create_NewContact@10fbbdb]" started-at="2025-05-22T12:22:48 IST" name="logout" finished-at="2025-05-22T12:22:49 IST" duration-ms="335" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:demoCRM_Web.testScripts.TC001_Create_NewContact@10fbbdb]" started-at="2025-05-21T18:37:25 IST" name="tearDown" finished-at="2025-05-21T18:37:25 IST" duration-ms="511" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:demoCRM_Web.testScripts.TC001_Create_NewContact@10fbbdb]" started-at="2025-05-22T12:22:49 IST" name="tearDown" finished-at="2025-05-22T12:22:49 IST" duration-ms="384" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

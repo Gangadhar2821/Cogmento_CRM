@@ -11,7 +11,7 @@ public class ListenerImpl implements ITestListener {
 		Object testClass = result.getInstance();
 		WebDriver driver = ((TestBase) testClass).getDriver();
 		if (driver instanceof WebDriver) {
-			CogmentoCRM_AppUtils.failureScreenshot(driver, result.getName());
+			Application_Utils.failureScreenshot(driver, result.getName());
 
 		}
 	}

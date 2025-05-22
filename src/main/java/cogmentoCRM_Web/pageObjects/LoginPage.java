@@ -5,13 +5,15 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class LoginPage {
+import cogmentoCRM_Web.baseUtils.Application_Utils;
+import cogmentoCRM_Web.baseUtils.TestBase;
+
+public class LoginPage extends Application_Utils {
 
 	protected WebDriver driver;
 
 	public LoginPage(WebDriver driver) {
-		this.driver = driver;
-		PageFactory.initElements(driver, this);
+		super(driver);
 	}
 
 	@FindBy(xpath = "//input[@name='email']")

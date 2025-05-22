@@ -115,3 +115,29 @@
 2025-05-21 18:36:42 [main] INFO  cogmentoCRM_Web.baseUtils.Log - Clicked on Login button
 2025-05-21 18:36:47 [main] INFO  cogmentoCRM_Web.baseUtils.Log - **********Begining of TC001_Create_NewCustomer**********
 2025-05-21 18:37:24 [main] INFO  cogmentoCRM_Web.baseUtils.Log - Logging 
+2025-05-22 11:55:38 [main] INFO  cogmentoCRM_Web.baseUtils.Log - Starting the WebDriver....
+2025-05-22 11:55:43 [main] INFO  cogmentoCRM_Web.baseUtils.Log - Launching the Chrome Browser!
+2025-05-22 11:55:48 [main] INFO  cogmentoCRM_Web.baseUtils.Log - Logging into the Application...
+2025-05-22 11:55:48 [main] INFO  cogmentoCRM_Web.baseUtils.Log - Entered EmailId
+2025-05-22 11:55:48 [main] INFO  cogmentoCRM_Web.baseUtils.Log - Entered Password
+2025-05-22 11:55:48 [main] INFO  cogmentoCRM_Web.baseUtils.Log - Clicked on Login button
+2025-05-22 12:14:27 [main] INFO  cogmentoCRM_Web.baseUtils.Log - **********Begining of TC001_Create_NewCustomer**********
+2025-05-22 12:19:20 [main] INFO  cogmentoCRM_Web.baseUtils.Log - Starting the WebDriver....
+2025-05-22 12:19:23 [main] INFO  cogmentoCRM_Web.baseUtils.Log - Launching the Chrome Browser!
+2025-05-22 12:19:27 [main] INFO  cogmentoCRM_Web.baseUtils.Log - Logging into the Application...
+2025-05-22 12:19:27 [main] INFO  cogmentoCRM_Web.baseUtils.Log - Entered EmailId
+2025-05-22 12:19:27 [main] INFO  cogmentoCRM_Web.baseUtils.Log - Entered Password
+2025-05-22 12:19:27 [main] INFO  cogmentoCRM_Web.baseUtils.Log - Clicked on Login button
+2025-05-22 12:19:32 [main] INFO  cogmentoCRM_Web.baseUtils.Log - **********Begining of TC001_Create_NewCustomer**********
+2025-05-22 12:19:32 [main] INFO  cogmentoCRM_Web.baseUtils.Log - Logging Out..
+2025-05-22 12:19:32 [main] INFO  cogmentoCRM_Web.baseUtils.Log - Successfully LoggedOut
+2025-05-22 12:19:57 [main] INFO  cogmentoCRM_Web.baseUtils.Log - Starting the WebDriver....
+2025-05-22 12:19:59 [main] INFO  cogmentoCRM_Web.baseUtils.Log - Launching the Chrome Browser!
+2025-05-22 12:20:03 [main] INFO  cogmentoCRM_Web.baseUtils.Log - Logging into the Application...
+2025-05-22 12:20:03 [main] INFO  cogmentoCRM_Web.baseUtils.Log - Entered EmailId
+2025-05-22 12:20:04 [main] INFO  cogmentoCRM_Web.baseUtils.Log - Entered Password
+2025-05-22 12:20:04 [main] INFO  cogmentoCRM_Web.baseUtils.Log - Clicked on Login button
+2025-05-22 12:20:24 [main] INFO  cogmentoCRM_Web.baseUtils.Log - **********Begining of TC001_Create_NewCustomer**********
+2025-05-22 12:21:34 [main] INFO  cogmentoCRM_Web.baseUtils.Log - **********End of TC001_Create_NewCustomer**********
+2025-05-22 12:22:48 [main] INFO  cogmentoCRM_Web.baseUtils.Log - Logging Out..
+2025-05-22 12:22:49 [main] INFO  cogmentoCRM_Web.baseUtils.Log - Successfully LoggedOut
