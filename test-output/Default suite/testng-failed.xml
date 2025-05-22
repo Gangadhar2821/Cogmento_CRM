@@ -3,14 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="demoCRM_Web.testScripts.LoginTest">
+      <class name="demoCRM_Web.testScripts.TC001_Create_NewContact">
         <methods>
-          <include name="validateLogin"/>
           <include name="setup"/>
-          <include name="tearDown"/>
           <include name="login"/>
+          <include name="tearDown"/>
+          <include name="logout"/>
+          <include name="create_NewContact" invocation-numbers="0"/>
         </methods>
-      </class> <!-- demoCRM_Web.testScripts.LoginTest -->
+      </class> <!-- demoCRM_Web.testScripts.TC001_Create_NewContact -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

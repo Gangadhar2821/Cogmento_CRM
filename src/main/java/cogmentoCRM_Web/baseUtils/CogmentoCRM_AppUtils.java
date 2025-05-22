@@ -11,7 +11,7 @@ import org.openqa.selenium.WebDriver;
 
 import io.qameta.allure.Allure;
 
-public class ScreenshotUtil {
+public class CogmentoCRM_AppUtils {
 
 	public static void pageScreenShot(WebDriver driver) throws IOException {
 		TakesScreenshot ts = (TakesScreenshot) driver;
@@ -20,7 +20,7 @@ public class ScreenshotUtil {
 
 	}
 
-	public static void captureScreenshot(WebDriver driver, String testName) {
+	public static void failureScreenshot(WebDriver driver, String testName) {
 		try {
 			byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
 			Allure.addAttachment(testName + " - Screenshot", new ByteArrayInputStream(screenshot));

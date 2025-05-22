@@ -17,8 +17,43 @@ public class HomePage {
 	@FindBy(xpath = "//span[@class='user-display']")
 	private WebElement logo_Username;
 
+	@FindBy(xpath = "//i[@class='home icon']")
+	private WebElement icon_Home;
+
+	@FindBy(xpath = "//i[@class='users icon']")
+	private WebElement icon_Contacts;
+
+	@FindBy(xpath = "//i[@class='users icon']/parent::a/following-sibling::button")
+	private WebElement icon_AddContacts;
+
+	@FindBy(xpath = "//i[@class='settings icon' ]/parent::div")
+	private WebElement icon_Settings;
+
+	@FindBy(xpath = "//a[@role='option']/span[contains(text(),'Out')]")
+	private WebElement btn_Logout;
+
 	public WebElement getLogo_Username() {
 		return logo_Username;
+	}
+
+	public WebElement getIcon_Home() {
+		return icon_Home;
+	}
+
+	public WebElement getIcon_Contacts() {
+		return icon_Contacts;
+	}
+
+	public WebElement getIcon_AddContacts() {
+		return icon_AddContacts;
+	}
+
+	public WebElement getIcon_Settings() {
+		return icon_Settings;
+	}
+
+	public WebElement getBtn_Logout() {
+		return btn_Logout;
 	}
 
 }

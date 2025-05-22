@@ -1,0 +1,1 @@
+{"uuid":"e08871dd-b057-4874-8e73-3fa1cc4bfba8","name":"demoCRM_Web.testScripts.LoginTest","children":["26dacfa6-ac4d-42eb-afa7-7c2447c4b4a5"],"befores":[{"name":"login","status":"passed","stage":"finished","description":"Login","steps":[],"attachments":[],"parameters":[],"start":1747825197295,"stop":1747825197722}],"afters":[],"start":1747825197255,"stop":1747825200832}
